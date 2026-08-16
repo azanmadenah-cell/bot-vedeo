@@ -1,0 +1,11 @@
+[project]
+name = "repl-nix-workspace"
+version = "0.1.0"
+description = "Telegram bot that combines an image and audio file into an MP4 video"
+requires-python = ">=3.11"
+dependencies = [
+    "flask>=3.1.3",
+    "moviepy>=2.2.1",
+    "pillow>=11.3.0",
+    "python-telegram-bot>=22.8",
+]
