@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: bot-vedeo
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python supervisor.py
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.0
